@@ -1,0 +1,118 @@
+body {    
+    background-image: url("dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+}
+
+.container {
+    padding-left: 2%;    
+    padding-right: 2%;
+    font-size: 14pt;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 1%;
+}
+
+#heading p {
+    text-align: left; 
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+#heading a {
+    margin-right: 1%;
+}
+
+#heading hr {
+    width: 90%;
+    align-self: center;
+}
+
+.container #ending, #heading {
+    padding: 1%;
+    color: white;
+}
+
+#heading a, #ending a {
+    color: white;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+#ending {
+    padding: 2%;
+}
+
+#projects {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+table {
+    text-align: center;
+    align-self: center;
+}
+
+tr {
+    text-align: center;
+    align-items: center;
+}
+
+td {
+    padding: 2%;
+    text-align: center;
+    width: 30%;
+}
+
+img {
+    align-self: center;
+    width: fit-content;
+    height: initial;
+}
+
+.overlay {
+    position: sticky;
+    opacity: 0;
+    transition: .5s ease;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.cell:hover .overlay{
+    opacity: 1;
+    background-size: contain;
+}
+  
+.text {
+    padding: 3%;
+    color: white;
+    font-size: 12pt;
+    position: sticky;
+    background-color: black;
+    transition: .5s ease;
+    text-align: center;
+}
